@@ -23,7 +23,7 @@ export default function ActivityList({activities, dispatch}: ActivityListProps) 
     <p className="text-center my-5"> No hay actividades </p> :
     
     activities.map(activity =>(
-       <div key={activity.id} className="px-5 py-10 bg-white mt-5 flex justify-between">
+       <div key={activity.id} className="px-5 py-10 bg-white mt-5 flex justify-between shadow">
 
            <div className="space-y-2 relative">
             
